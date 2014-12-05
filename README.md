@@ -15,7 +15,7 @@ Step 2:
 Step 3: 
 - Run "stop_instances" when done to 'gracefully' shutdown the instances
 
-Note: When first starting the cluster you will need to create the replicaset and shards however these scripts will create the required directories and allow you to easily start / stop the processes.
+Note: When first starting the cluster you will need to initialize the replicaset and create the 2x shards which will consist of 3x mongod processes per replicaset. These scripts create the required directories and allow you to easily start / stop the processes.
 
 
 
